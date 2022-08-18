@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projeto Cartão de visitas</title>
+
+    <link rel="shortcut icon" href="src/imagens/JP.png" type="image/x-icon" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="src/css/reset.css" />
+
+    <link rel="stylesheet" href="src/css/estilos.css" />
+
+    <link rel="stylesheet" href="src/css/responsivo.css" />
+  </head>
+  <body>
+    <header class="cabecalho">
+      <img src="src/imagens/JP.png" alt="logo" class="logo" />
+      <h1 class="titulo">Jonathan Pequeno</h1>
+    </header>
+
+    <main class="cards-slider">
+      <button class="btn-seta btn-voltar" id="btn-voltar">
+        <img src="src/imagens/seta.png" alt="seta voltar" />
+      </button>
+
+      <ul class="lista-cards">
+        <li class="cartao selecionado fundo-0">
+          <div class="informacoes">
+            <h2 class="nome">Jonathan</h2>
+            <p class="vida">Desenvolvedor</p>
+          </div>
+
+          <div class="container-imagem">
+            <img
+              class="staks"
+              align="center"
+              alt="Js"
+              height="240"
+              width="250"
+              src="src/imagens/jonathan.png"
+            />
+          </div>
+
+          <div class="descricao">
+            <h3 class="titulo">Quem sou eu?</h3>
+            <p class="texto">
+              Sou o Jonathan, nascido no dia 25/10/1994, atualmente tenho 27
+              anos, sou formado em Análise e Desenvolvimento de Sistemas, estou
+              cursando Pós Graduação em Seguraça da Informação. Tenho habilidade
+              em algumas Staks listadas nos cartões a seguir!
+            </p>
+          </div>
+        </li>
+
+        <li class="cartao fundo-1">
+          <div class="informacoes">
+            <h2 class="nome">Html5</h2>
+            <p class="vida">A 1°</p>
+          </div>
+
+          <div class="container-imagem">
+            <img
+              class="staks"
+              align="center"
+              alt="HTML"
+              height="240"
+              width="250"
+              src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg"
+            />
+          </div>
+
+          <div class="descricao">
+            <h3 class="titulo">Descrição</h3>
+            <p class="texto">
+              HTML é uma linguagem de marcação utilizada na construção de
+              páginas na Web. Essa linguagem foi meu primeiro contato com o
+              mundo da Programção, por se tratar de uma linguagem na qual é
+              possivel ver quase que instantaneamente o seu resultado, se torna
+              mais facil o aprendizado.
+            </p>
+          </div>
+        </li>
+
+        <li class="cartao fundo-2">
+          <div class="informacoes">
+            <h2 class="nome">CSS</h2>
+            <p class="vida">Tem todo o estilo</p>
+          </div>
+
+          <div class="container-imagem">
+            <img
+              class="staks"
+              align="center"
+              alt="CSS"
+              height="240"
+              width="250"
+              src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg"
+            />
+          </div>
+
+          <div class="descricao">
+            <h3 class="titulo">Descrição</h3>
+            <p class="texto">
+              O CSS como a maioria dos devs, inclusive eu gostamos de falar, é o
+              css que deixa a sua pagina bonita. O Html cria a estrutura e CSS
+              embeleza. O CSS é a segunda "linguagem" que todo front end, assim
+              como eu aprende.
+            </p>
+          </div>
+        </li>
+
+        <li class="cartao fundo-3">
+          <div class="informacoes">
+            <h2 class="nome">JavaScript</h2>
+            <p class="vida">Quem Transforma</p>
+          </div>
+
+          <div class="container-imagem">
+            <img
+              class="staks"
+              align="center"
+              alt="Js"
+              height="240"
+              width="250"
+              src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg"
+            />
+          </div>
+
+          <div class="descricao">
+            <h3 class="titulo">Descrição</h3>
+            <p class="texto">
+              O JavaScript ou como costumamos chamar js, é uma linguagem de
+              programção interpretada diretamento em nossos navegadores de
+              internet. Se trata de uma linguagem de facíl aprendizado e de
+              grande poder. Essa foi a primeira Linguagem de Programação de
+              verdade(Não desmerecendo as outras) que eu aprendi.
+            </p>
+          </div>
+        </li>
+
+        <li class="cartao fundo-4">
+          <div class="informacoes">
+            <h2 class="nome">PHP</h2>
+            <p class="vida">Back End</p>
+          </div>
+
+          <div class="container-imagem">
+            <img
+              class="staks"
+              align="center"
+              alt="PHP"
+              height="240"
+              width="250"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg"
+            />
+          </div>
+
+          <div class="descricao">
+            <h3 class="titulo">Descrição</h3>
+            <p class="texto">
+              O PHP é uma linguagem Back End, utilizada para conversar
+              diretamente com servidores e bancos de dados. Não vou mentir que
+              tive algumas dificuldades com essa linguagem, mas depois de algum
+              tempo dedicado exclusivamente a ela, nós nos acertamos. rs..
+            </p>
+          </div>
+        </li>
+
+        <li class="cartao fundo-5">
+          <div class="informacoes">
+            <h2 class="nome">Python</h2>
+            <p class="vida">A Melhor</p>
+          </div>
+
+          <div class="container-imagem">
+            <img
+              class="staks"
+              align="center"
+              alt="PY"
+              height="240"
+              width="250"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+            />
+          </div>
+
+          <div class="descricao">
+            <h3 class="titulo">Descrição</h3>
+            <p class="texto">
+              Na minha humilde opinião a melhor linguagem, o Python tem de certa
+              forma uma gramatica mais facíl e muito menos versada em relaçaõ à
+              outras linguagens, sendo assim, mais rapida e eficiente em muitos
+              casos>
+            </p>
+          </div>
+        </li>
+
+        <li class="cartao fundo-6">
+          <div class="informacoes">
+            <h2 class="nome">Java</h2>
+            <p class="vida">Nunca sai de cena</p>
+          </div>
+
+          <div class="container-imagem">
+            <img
+              class="staks"
+              align="center"
+              alt="JAVA"
+              height="240"
+              width="250"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original-wordmark.svg"
+            />
+          </div>
+
+          <div class="descricao">
+            <h3 class="titulo">Descrição</h3>
+            <p class="texto">
+              Java, todos anos vemos "noticias" na internet que o Java vai ser
+              descontinuado, ou que o java esta desatualizado. Acredito que o
+              Java não saira de cena nem tão cedo, apesar de antiga, na minha
+              opinião a sua versatilidade lhe garante uma vida longa pela
+              frente, por isso ainda estou estudando ela em um curso no Senai. 
+            </p>
+          </div>
+        </li>
+      </ul>
+
+      <button class="btn-seta" id="btn-avancar">
+        <img src="src/imagens/seta.png" alt="seta avançar" />
+      </button>
+    </main>
+
+    <script src="src/js/index.js"></script>
+  </body>
+</html>
