@@ -156,3 +156,14 @@ body {
     max-height: 115px;
     overflow-y: auto;
 }
+
+
+footer {
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ 
+  
