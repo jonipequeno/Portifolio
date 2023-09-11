@@ -133,7 +133,11 @@ h6 {
   color: #000000;
   text-decoration: none;
 }
-
+#header .profile .social-links .whatsapp:hover {
+  background: #3cff01;
+  color: #ffffff;
+  text-decoration: none;
+}
 #header .profile .social-links .instagram:hover {
   background: #d6249f;
   background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
